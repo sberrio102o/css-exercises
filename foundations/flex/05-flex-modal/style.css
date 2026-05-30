@@ -29,17 +29,19 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
-  border-radius: 50%;
+  border-radius: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 20px;
 }
 
 .close-button {
   background: #eee;
   border-radius: 50%;
+  margin-right: 20px;
   color: #888;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -48,6 +50,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  font-weight:bold;
+  font-size: 18px;
 }
 
 button {
@@ -60,10 +64,35 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 75px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 16px;
+  padding-left: 30px;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: large;
+}
+
+.card_header{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+  font-size: bold;
+}
+.header{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
 }

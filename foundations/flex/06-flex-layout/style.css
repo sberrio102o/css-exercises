@@ -24,3 +24,28 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+button:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+}
+.right-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  text-transform: capitalize;
+  text-decoration: none;
+}
